@@ -28,6 +28,12 @@ npm run dev
 
 4. Open the local URL shown in the terminal. Vite usually serves at `http://localhost:5173`.
 
+Local app URL:
+
+```text
+http://localhost:5173
+```
+
 ## Build For Production
 
 1. Run the production build:
@@ -84,6 +90,17 @@ git push -u origin main
 ```text
 https://YOUR-USERNAME.github.io/YOUR-REPO/
 ```
+If your GitHub username is `bernmoreno` and your repository name is `grocery-list-app`, the live URL will be:
+
+```text
+https://bernmoreno.github.io/grocery-list-app/
+```
+
+That URL will work only after:
+
+1. The repository is pushed to GitHub
+2. GitHub Pages is set to `GitHub Actions`
+3. The deployment workflow finishes successfully
 
 ## Project Scripts
 
